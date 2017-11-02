@@ -1,0 +1,119 @@
+1.- ¿Cuál de estos formatos es el correcto para declarar e inicializar un objeto Number? 
+{
+=var x = new Number(6);
+~var x = "5" 
+~var x = new number(5);
+~var x = number(5);
+ }
+ 
+2.- ¿Qué método propio del objeto Number nos devuelve una cadena con el número en notación de punto fijo? 
+{
+~toLocateString()
+=toFixed;
+~toSource()
+~toExponential;
+ }
+ 
+3.- Según las propiedades de precisión del objeto Number, ¿cuántos dígitos de longitud se le permiten un número sin que este pierda la precisión? 
+{
+~10
+~Nunca la pierde
+~25
+=15
+ }
+ 
+4.- ¿Cuál sería el resultado de sumar dos variables numéricas con valores 10 y 20 respectivamente? 
+{
+~1020
+~"30"
+=30
+~"1020"
+}
+
+5.- ¿Cuál sería el resultado de sumar dos variables numéricas con valores 10 y 20 respectivamente y una cadena que contiene la cadena: "20" ? 
+{
+~50
+~102020
+="3020"
+~"50"
+}
+
+6.- ¿Cómo se muestra el valor máximo de un objeto tipo Number?
+{
+~objeto.MinValue
+~objeto.MAXvalue
+=objeto.MAX_VALUE
+~objeto.MIN_VALUE
+}
+
+7.- ¿Cómo se muestra el valor mínimo de un objeto tipo Number?
+{
+~objeto.minvalue
+~objeto.MinValue
+~MIN_VALUE.objeto
+=objeto.MIN_VALUE
+}
+
+8.- Cuando hablamos de precisión en el tipo de objeto Number, cuando asignamos el valor 999999999999999 a una variable (var x = 999999999999999). ¿Qué resultado obtendremos?
+{
+=1000000000000000
+~El mismo
+~888888888888888
+~777777777777777
+}
+
+9.- ¿Cuál sería el resultado de sumar dos variables de texto con valores 40 y 50 respectivamente?
+{
+~90
+~180
+=4050
+~10
+}
+
+10.- ¿Cuál sería el resultado de sumar dos variables, una de tipo numérico y otra de texto con valores 2 y "3" respectivamente?
+{
+=23
+~5
+~6
+~Error
+}
+
+11.- ¿Qué es NaN?
+{
+~Un tipo de Objeto
+=Una palabra reservada que sirve para indicar que no es un tipo de dato válido
+~Me lo he inventado
+~Es un dato primitivo de java
+}
+
+12.- ¿Qué propiedad representa los infinitos negativos?
+{
+~negative_infinity
+~INFINITY_NEGATIVE
+~INFINITY_WAR
+=NEGATIVE_INFINITY
+} 
+ 
+13.- ¿Qué propiedad representa los infinitos positivos?
+{
+=POSITIVE_INFINITY
+~POSITIVEINFINITY
+~infinity_positive
+~INFINITY_POSITIVE
+}
+
+14.- ¿Qué método retorna una cadena representando el número en una notación de precisión de punto fijo?
+{
+~.toFixed()
+~.toLocaleString()
+=.toPrecision()
+~.toSource()
+} 
+ 
+15.- ¿Qué método devuelve una cadena con el número en notación exponencial?
+{
+~.toExponencial()
+=.toExponential()
+~.toExp()
+~.toDecimal()
+}
